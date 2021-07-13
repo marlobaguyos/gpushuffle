@@ -6,8 +6,11 @@ class Footer extends Component {
 	render() { 
 		return ( 
 			<React.Fragment>
-				<footer className="footer-name">2021 All rights reserved</footer>
-				<label className="footer-cr">GPUSHUFFLE LLC</label>
+				<footer className="footer mt-auto py-3 bg-dark fixed-bottom">
+					<div className="container">
+						<span className="text-muted">All rights reserved. Sphynx Mining LLC</span>
+					</div>
+				</footer>
 			</React.Fragment>
 		);
 	}
