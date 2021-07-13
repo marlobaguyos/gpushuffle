@@ -6,7 +6,7 @@ class Footer extends Component {
 	render() { 
 		return ( 
 			<React.Fragment>
-				<div>2021 All rights reserved</div>
+				<footer className="footer">2021 All rights reserved</footer>
 				<label>GPUSHUFFLE LLC</label>
 			</React.Fragment>
 		);

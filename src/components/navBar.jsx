@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 
 class NavBar extends Component {
+	state = {  }
 	render() { 
 		return ( 
 			<div>
-				NavBar will be here!!! 
+				NavBar here...
 			</div>
 		);
 	}
