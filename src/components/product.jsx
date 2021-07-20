@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import QuantityPicker from 'components/QuantityPicker';
 
 class Products extends Component {
 	state = {  }
 	render() { 
 		return ( 
 			<div>
-				I'm a product!!
-				<QuantityPicker></QuantityPicker>
+				<img src="https://i0.wp.com/1stminingrig.com/wp-content/uploads/2018/03/MSI-GTX-1060-3GB-Mining-Rig-Ravencoin-Mining-Hashrate.jpg?fit=2000%2C972&ssl=1"></img>
+
+				<label>Product Description here</label>
+				<label>$ Total</label>
+				<label>$ Price</label>
 				
 			</div>
 		);

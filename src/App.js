@@ -1,7 +1,7 @@
 import './App.css';
 import NavBar from './components/navBar';
 import Footer from './components/footer.jsx';
-import QuantityPicker from './components/quantitypicker.jsx';
+import QuantityPicker from './components/quantityPicker';
 import Product from './components/product.jsx';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
