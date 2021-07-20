@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import QuantityPicker from 'components/QuantityPicker';
 
 class Products extends Component {
 	state = {  }
@@ -6,8 +7,8 @@ class Products extends Component {
 		return ( 
 			<div>
 				I'm a product!!
-
 				<QuantityPicker></QuantityPicker>
+				
 			</div>
 		);
 	}
